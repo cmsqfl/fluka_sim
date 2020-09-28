@@ -26,6 +26,7 @@ More info on CERN batch system here:
 https://batchdocs.web.cern.ch/
 
 5. Run `make` to get `f2hepmc` executable
+6. Run `./f2hepmc.exe glob test` to convert fluka output to hepmc format. Option `glob` is used to check all `CONDOR*` directories for output
 
 P.S.
 Might wanna check `split.py` and `execute.py` for hardcoded paths, modify accordingly!
