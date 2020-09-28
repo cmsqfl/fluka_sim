@@ -26,3 +26,6 @@ More info on CERN batch system here:
 https://batchdocs.web.cern.ch/
 
 5. Run `make` to get `f2hepmc` executable
+
+P.S.
+Might wanna check `split.py` and `execute.py` for hardcoded paths, modify accordingly!
