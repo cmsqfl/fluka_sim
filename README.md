@@ -30,3 +30,7 @@ https://batchdocs.web.cern.ch/
 
 P.S.
 Might wanna check `split.py` and `execute.py` for hardcoded paths, modify accordingly!
+P.P.S.
+Input cards work only from the current directory
+P.P.P.S
+There is an `-L` option in the `execute` script to run the jobs locally for test, but something is wrong there
