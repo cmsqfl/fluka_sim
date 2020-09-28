@@ -34,8 +34,7 @@ int fluka2pdg (int part){
 
 void f2hepmc(
     std::string infile = "in",
-    std::string outfile = "out",
-    int firstevent = 1)
+    std::string outfile = "out")
 {
  	HepMC::IO_GenEvent* output = new HepMC::IO_GenEvent("Fluka_ASCII.dat", std::ios::out);
  
@@ -91,6 +90,6 @@ void f2hepmc(
 int main(int argc, char *argv[])
 { 
   argc = argc;  
-  f2hepmc(argv[1],argv[2],atoi(argv[3]));
+  f2hepmc(argv[1],argv[2]);
   return 0;
 }
