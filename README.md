@@ -1,5 +1,8 @@
 # fluka simulation for QFL
 
+This is a small project for Fluka simulation for QFL. It has a "stripped" CMS geomety for speed, as well as the CMS magnetic field discription. 
+The current fluka input card is `v37214light.inp`. The purpose of the code is to dump all particles, entering a specific area where QFL might be situated. The areas are defined as `QLumi` in the input card, the dump is defined in the `mgdraw` user routine. All the machinery to run with lxplus batch was taken from FOCUS (BRIL) and was slightly modified.
+
 How to run on lxplus:
 1. Add `lxbatch` and `FLUPRO` to your `.bashrc` profile (modify accordingly)
 
